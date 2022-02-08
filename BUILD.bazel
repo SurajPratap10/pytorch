@@ -28,7 +28,7 @@ COMMON_COPTS = [
     "-DUSE_CUDNN",
 ])
 
-# TODO: refactor this into its own library (but how to make
+# TO DO: refactor this into its own library (but how to make
 # a binary based off of a module in a library?)
 py_binary(
     name = "gen",
